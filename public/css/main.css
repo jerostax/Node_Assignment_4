@@ -1,0 +1,81 @@
+body {
+  background-color: lightsalmon;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+header {
+  background-color: lightgreen;
+}
+nav > ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 2rem 0;
+}
+nav > ul > li {
+  margin: 0 2rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: darkred;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+form > label,
+form > input,
+form > button {
+  align-self: center;
+}
+label {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  color: darkolivegreen;
+}
+input {
+  width: 20%;
+  padding: 0.5rem 0;
+  border: 1px solid lightgreen;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+button {
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid darkred;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background-color: lightgreen;
+  cursor: pointer;
+}
+.active {
+  color: red;
+}
+h2 {
+  text-align: center;
+  color: darkolivegreen;
+  font-size: 2rem;
+}
+.user-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.user-list li {
+  align-self: center;
+  font-size: 1.2rem;
+  color: darkred;
+  font-weight: bold;
+}
